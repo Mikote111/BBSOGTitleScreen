@@ -1,0 +1,21 @@
+title: OG Title Screen
+description: Replaces the Final Mix Title Screen with the original one.
+assets:
+- name: raw/arc/menu/title_03.arc
+  package: bbs_first
+  method: copy
+  source:
+    - name: raw/arc/menu/title_03.arc
+- name: raw/arc/menu/title_v.arc
+  package: bbs_first
+  method: copy
+  source:
+    - name: raw/arc/menu/title_v.arc
+- name: raw/arc/menu/title_a.arc
+  package: bbs_third
+  source:
+    - name: raw/arc/menu/title_a.arc
+- name: raw/arc/menu/title_t.arc
+  package: bbs_third
+  source:
+    - name: raw/arc/menu/title_t.arc
